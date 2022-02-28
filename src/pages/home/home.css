@@ -1,0 +1,17 @@
+.home {
+    background-color: #362B6C;
+    width: 100%;
+    overflow: hidden;
+}
+
+.circle1 {
+    position: absolute;
+    top: 20rem;
+    left: -250px;
+}
+
+.circle2 {
+    position: absolute;
+    right: 0;
+    bottom: -50rem;
+}

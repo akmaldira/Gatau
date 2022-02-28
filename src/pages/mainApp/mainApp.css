@@ -1,0 +1,8 @@
+.main-app {
+    display: flex;
+    flex-direction: column;
+} 
+
+.main-app .home-wrapper {
+    flex: 1;
+}

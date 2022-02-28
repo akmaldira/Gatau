@@ -1,0 +1,122 @@
+.game {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game .title {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    width: 1140px;
+    margin-bottom: 5rem;
+    font-family: 'Geostar Fill', cursive;
+}
+
+.game .title h2{
+    font-size: 2rem;
+}
+
+.game .title p{
+    color: rgba(250, 211, 6, 1);
+}
+
+.game .list-game {
+    width: 1340px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 50px;
+    justify-content: center;
+}
+
+.game .list-game .box-game {
+    width: 280px;
+    height: 340px;
+    overflow: hidden;
+    background-color: red;
+    transform: skew(-5deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.game .list-game .box-game:hover .blur {
+    bottom: 0;
+    transition: 1s;
+}
+
+.game .list-game .box-game .blur {
+    height: 340px;
+    width: 100%;
+    background: rgba(172, 172, 172, 0.32);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    bottom: -70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}
+
+.game .list-game .box-game .blur p {
+    transform: skew(5deg);
+    color: rgba(205, 205, 205, 1);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.game .list-game .box-game .blur h4 {
+    color: white;
+    transform: skew(5deg);
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.game .list-game .box-game .asset {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    transform: skew(5deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 72px;
+    left: 15px;
+}
+
+.game .list-game .box-game .blur a {
+    transform: skew(5deg);
+    text-decoration: none;
+    height: 49px;
+    width: 150px;
+    background: linear-gradient(86.03deg, #00DBDE -32.19%, #FC00FF 123.18%);
+    box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.57);
+    border-radius: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+.game .list-game .box-game .blur a:hover {
+    padding: 3px;
+}
+
+.game .list-game .box-game .blur a:active {
+    padding: 0px;
+}

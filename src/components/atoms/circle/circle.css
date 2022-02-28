@@ -1,0 +1,7 @@
+.circle {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background: rgba(255, 0, 102, 0.555);
+    filter: blur(200px);
+}
